@@ -57,7 +57,7 @@ const combate = () => {
   const ataquePropio = poke1Ataque.innerHTML
   const ataqueRival = poke2Ataque.innerHTML
 
-  if (ataquePropio > ataqueRival) {
+  if (ataquePropio < ataqueRival) {
     alert('¡Ganaste!')
   } else {
     alert('¡Perdiste!')
